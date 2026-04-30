@@ -12,7 +12,7 @@ client = OpenAI(api_key="sk-proj-EQ_HXNLr2BN7FT-8GAFGE1HZyV_X-GCAe4hq7lAMPj9pv2d
 
 # 3. Control de Acceso (Tus usuarios autorizados)
 # Fuente: User Summary - Relationships
-usuarios_autorizados = ["573107153382", "573203328757", "71058449"]
+usuarios_autorizados = ["573107153382", "573203328757", "71058449", "83349558"]
 
 # 4. Interfaz de Usuario
 telefono = st.text_input("Introduce tu número de celular registrado:", placeholder="Ej: 573...")
