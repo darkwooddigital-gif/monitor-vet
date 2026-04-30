@@ -8,11 +8,11 @@ st.markdown("---")
 st.write("Bienvenido al sistema de consulta técnica académica.")
 
 # 2. Tu activo de negocio (La API Key que ya tienes)
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # 3. Control de Acceso (Tus usuarios autorizados)
 # Fuente: User Summary - Relationships
-usuarios_autorizados = ["573107153382", "573203328757", "71058449", "83349558"]
+usuarios_autorizados = ["3107153382", "3203328757", "71058449", "83349558"]
 
 # 4. Interfaz de Usuario
 telefono = st.text_input("Introduce tu número de celular registrado:", placeholder="Ej: 573...")
